@@ -1,5 +1,5 @@
-from Linked_Lists.LinkedList import LinkedList
-from Linked_Lists.LinkedListNode import LinkedListNode
+from Projects.Linked_Lists.LinkedList import LinkedList
+from Projects.Linked_Lists.LinkedListNode import LinkedListNode
 
 
 class Deque(LinkedList):

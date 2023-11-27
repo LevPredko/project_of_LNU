@@ -1,4 +1,4 @@
-from Linked_Lists.Deque import reverse_file, Deque
+from Projects.Linked_Lists.Deque import reverse_file, Deque
 
 reverse_file('input.txt', 'output.txt')
 deque = Deque()
