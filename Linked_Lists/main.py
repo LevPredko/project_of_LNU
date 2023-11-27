@@ -1,0 +1,23 @@
+from Linked_Lists.Deque import reverse_file, Deque
+
+reverse_file('input.txt', 'output.txt')
+deque = Deque()
+deque.append("apple")
+deque.append("banana")
+deque.append("orange")
+deque.append("kiwi")
+
+print("Initial deque:", deque)
+deque.remove_lines_containing("an")
+print("After removing lines containing 'an':", deque)
+deque.appendleft("grape")
+print("After inserting 'grape' at the beginning:", deque)
+deque.popleft()
+print("After removing the first element:", deque)
+deque.pop()
+print("After removing the last element:", deque)
+deque.append("banana")
+deque.append("orange")
+deque.append("kiwi")
+print("After adding more elements:", deque)
+print("Final deque:", deque)
